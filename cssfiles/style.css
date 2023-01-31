@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.InfoName{transform: rotate(-90deg);}
+
+ 
+
+
+    @media screen and (max-width: 600px){
+        .InfoName{transform: rotate(0deg);}
+        .imge{
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+    }
